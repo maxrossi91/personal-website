@@ -11,7 +11,7 @@
 <a href="{{ entry.preprint }}"><input class="button2" type="button" value="preprint" /></a>
 {% endif %}
 
-{% if entry.link %}
+{% if entry.type == "misc" && entry.link %}
 <a href="{{ entry.link }}"><input class="button4" type="button" value="link" /></a>
 {% endif %}
 

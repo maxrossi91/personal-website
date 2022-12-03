@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Massimiliano Rossi"
   avatar           : "Profilo.jpeg"
-  bio              : "Postdoctoral Researcher at the University of Florida."
-  location         : "Gainesville, FL"
+  bio              : "Sr. Bioinformatics Scientist at Illumina inc."
+  location         : "Atlanta, GA"
   employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.it/citations?user=iq3mnvMAAAAJ&hl=en"
-  email            : "rossi.m@ufl.edu"
+  email            : "maxrossi91@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "www.linkedin.com/in/maxrossi91"
   orcid            : "https://orcid.org/0000-0002-3012-1394"
   pinterest        :
   soundcloud       :
@@ -175,15 +175,6 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -226,16 +217,34 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
-  # _portfolio
+      comments: false
+  # _references
   - scope:
       path: ""
-      type: portfolio
+      type: references
     values:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
+  # _utils
+  - scope:
+      path: ""
+      type: utils
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: false
+  # _competitive programming
+  - scope:
+      path: ""
+      type: competitive
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: false
   # _talks
   - scope:
       path: ""
@@ -250,6 +259,17 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+# Publications
+scholar:
+  style: _bibliography/mystyle
+  bibliography_template: bib
+  sort_by: year,month
+  order: descending
+  group_by: type
+  group_order: ascending
+  type_order: [article,inproceedings,unpublished]
+  replace_strings: true
+
 
 # Outputting
 permalink: /:categories/:title/
@@ -261,14 +281,13 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 # Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji

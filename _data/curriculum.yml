@@ -1,0 +1,42 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+# From https://github.com/sharu725/online-cv
+
+education:
+    title: Education
+    info:
+      - degree: Ph.D. degree in Computer Science
+        university: University of Verona, Verona (Italy)
+        department: Department of Computer Science
+        time: 2016 - 2020
+        thesis: Algorithms and Data Structures for Coding, Indexing, and Mining of Sequential Data
+        advisors: Ferdinando Cicalese and Zsuzsanna Lipták
+      - degree: Master's degree in Computer Science and Engineering
+        university: University of Verona, Verona (Italy)
+        time: 2014 - 2016
+        thesis: Methodology for behavioral inference on digital system for verification application and test sequence generation
+        advisor: Graziano Pravadelli
+        mark: 110/110 e lode (top grade with honors)
+      - degree: Bachelor's degree in Computer and Automation Engineering
+        university: Marche Polytechnic University, Ancona (Italy)
+        time: 2010 - 2014
+        thesis: Methodology for design and reuse of peripherals drivers in embedded real-time operating systems for automation and control applications
+        advisors: Massimiliano Pirani and Andrea Bonci
+        mark: 105/110
+experiences:
+    title: Employment
+    info:
+      - role: Sr. Bioinformatics Scientist
+        time: Apr. 2022 - Present
+        company: Illumina Inc., San Diego, CA (United States)
+      - role: Postdoctoral Associate
+        time: Mar. 2020 - Mar. 2022
+        company: University of Florida, Gainesville, FL (United States)
+        department: Department of Computer and Information Science and Engineering
+        mentor: Christina Boucher
+      - role: Research Fellow
+        time: Oct. 2019 - Dec. 2019
+        company: University of Helsinki, Helsinki (Finland)
+        department: Department of Computer Science
+        mentor: Veli Mäkinen

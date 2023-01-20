@@ -8,16 +8,15 @@ main:
 
   - title: "Teaching"
     url: /teaching/    
-
-  - title: "Competitive Programming"
-    url: /competitive/
     
-  - title: "Utils"
-    url: /utils/
+  - title: "Portfolio"
+    url: /portfolio/
+        
+  - title: "Blog Posts"
+    url: /year-archive/
     
   - title: "CV"
     url: /cv/
     
-  - title: "Blog Posts"
-    url: /year-archive/
-    
+  - title: "Guide"
+    url: /markdown/

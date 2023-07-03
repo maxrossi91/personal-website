@@ -12,7 +12,8 @@ UniVR Programming challenges class website: [https://sfidediprogrammazioneunivr.
 
 ## Organized Contests
 
-[Italian Collegiate Programming Contest](http://www.google.com/url?q=http%3A%2F%2Fwww.itacpc.it&sa=D&sntz=1&usg=AFQjCNFVslPb9n-D_U7VeX7UtfovAgMWMA) (ITACPC 2019)
+* [Italian Collegiate Programming Contest](http://www.google.com/url?q=http%3A%2F%2Fwww.itacpc.it&sa=D&sntz=1&usg=AFQjCNFVslPb9n-D_U7VeX7UtfovAgMWMA) (ITACPC 2019)
+* [Italian Collegiate Programming Contest](http://www.google.com/url?q=http%3A%2F%2Fwww.itacpc.it&sa=D&sntz=1&usg=AFQjCNFVslPb9n-D_U7VeX7UtfovAgMWMA) (ITACPC 2022)
 
 ## Attended Contests
 

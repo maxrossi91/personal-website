@@ -1,0 +1,80 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+# From https://github.com/sharu725/online-cv
+
+- title: Invited Talks
+  info:
+    - title: "MONI: Design Challenges for a Pangenomic Tool"
+      event: Pangenomics Bio Hacking 2021
+      date: December 2021
+      venue: Milan (Italy) - held online
+- title: Conference Presentations
+  info:
+    - title: "MONI: A Pangenomics Index for Finding MEMs"
+      event: 25th International Conference on Research in Computational Molecular Biology (RECOMB 2021)
+      date: August 2021
+      venue: Padova (Italy) - held online
+    - title: Finding Overlapping Rmaps via Gaussian Mixture Model Clustering
+      event: International Workshop on Data Mining in Bioinformatics (BIOKDD 2021)
+      date: August 2021
+      venue: Singapore (Singapore) - held online
+    - title: PFP Compressed Suffix Trees
+      event: Workshop on Data Structures for Bioinformatics (DSB 2021)
+      date: February 2021
+      venue: Milan (Italy) - held online
+    - title: On the redundancy of D-ary Fano codes
+      event: the 47th International Conferenceon Current Trends in Theory and Practice of Computer Science (SOFSEM 2021)
+      date: January 2021
+      venue: Bolzen (Italy) - held online
+    - title: PFP Compressed Suffix Trees
+      event: the SIAM Symposium on Algorithm Engineering and Experiments (ALENEX21)
+      date: January 2021
+      venue: Alexandria, VA (United States) - held online
+    - title: Finding MEMs with the RLBWT
+      event: the 15th Workshop on Compression, Text and Algorithms (WCTA 2020)
+      date: October 2020
+      venue: Orlando, FL (United States) - held online
+    - title: Pattern discovery in colored strings
+      event: the 18th Symposium on Experimental Algorithms (SEA 2020)
+      date: June 2020
+      venue: Catania (Italy) - held online
+    - title: Practical mergeable dictionaries
+      event: the 14th Workshop on Compression, Text and Algorithms (WCTA 2019)
+      date: October 2019
+      venue: Segovia (Spain) 
+    - title: Greedy additive approximation algorithms for minimum-entropy coupling  problem
+      event: the 2019 IEEE International Symposium on Information Theory (ISIT 2019)
+      date: July 2019
+      venue: Paris (France) 
+    - title: On Lempel-Ziv Decompression in Small   Space
+      event: the Data Compression Conference (DCC 2019)
+      date: March 2019
+      venue: Snowbird, UT (United States) 
+    - title: On Infinite Prefix Normal Words
+      event: the 45th International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM 2019)
+      date: January 2019
+      venue: Nový Smokovec (Slovakia) 
+    - title: Bubble-Flip---A New Generation Algorithm for Prefix Normal Words
+      event: the 12th International Conference on Language and Automata Theory and Applications (LATA 2018)
+      date: April 2018
+      venue: Ramat Gan (Israel) 
+    - title: Bubble-Flip---A New Generation Algorithm for Prefix Normal Words
+      event: the Workshop on Words and Complexity
+      date: February 2018
+      venue: Villeurbanne (France)  
+    - title: "On the multi-interval Ulam-Rényi game: for 3 lies 4 intervals suffice"
+      event: the Italian Conference on Theoretical Computer Science (ICTCS 2017)
+      date: September 2017
+      venue: Naples (Italy) 
+
+- title: Posters
+  info:
+    - title: "MONI: A Pangenomics read aligner"
+      event: Genome Informatics
+      date: November 2021
+      venue: Cold Spring Harbor, NY  (United States) - held online
+    - title: Embedded system for a Ballbot robot
+      event: Workshop on Intelligent Solutions in Embedded Systems (WISES 2015)
+      date: November 2015
+      venue: Ancona (Italy) 

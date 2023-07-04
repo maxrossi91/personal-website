@@ -1,16 +1,46 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% assign talks = site.data.talks %}
+{% if talks %}
+{% for talkType in talks %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+  <section class="section talks-section">
 
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+      </span>
+      {{talkType.title}}
+    </h2>
+
+    {% for talk in talkType.info %}
+    <div class="item">
+      <i class="vertical-line"></i>
+      <div class="talk-time">{{ talk.date }}</div>
+      <div class="meta">
+
+        <div class="upper-row">
+          <h3 class="talk-title">{{ talk.title }}</h3>
+        </div>
+        <!--//upper-row-->
+        <div class="talk-event">{{ talk.event }}</div>
+        <div class="talk-venue"> {{ talk.venue }} </div>
+      </div>
+      <!--//meta-->
+    </div>
+    {% endfor %}
+    <div class="last-item">
+      <i class="vertical-line"></i>
+    </div>
+
+  </section>
+  <!--//section-->
+{% endfor %}
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}

@@ -34,3 +34,26 @@ To support this, all changes to the underlying code appear as a closed issue wit
 ## Inputs
 * academic-pages
 * [online-cv](https://github.com/sharu725/online-cv)
+
+# Utils to compile the website and preview it locally
+
+See README for a complete list of steps
+
+```
+bundle exec jekyll liveserves
+```
+
+## Deploy on firebase
+
+See
+https://desiredpersona.com/jekyll-firebase-hosting/
+for full description
+
+```
+boundle exec jekyll build
+firebase deploy
+```
+
+## Add Google Analytics tracking
+
+https://github.com/academicpages/academicpages.github.io/issues/265

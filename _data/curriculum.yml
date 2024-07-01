@@ -27,8 +27,14 @@ education:
 experiences:
     title: Employment
     info:
+      - role: Staff Bioinformatics Scientist
+        time: Nov. 2023 - Present
+        company: Illumina Inc., San Diego, CA (United States)
       - role: Sr. Bioinformatics Scientist
-        time: Apr. 2022 - Present
+        time: Oct. 2022 - Nov. 2023
+        company: Illumina Inc., San Diego, CA (United States)
+      - role: Bioinformatics Scientist
+        time: Apr. 2022 - Oct. 2022
         company: Illumina Inc., San Diego, CA (United States)
       - role: Postdoctoral Associate
         time: Mar. 2020 - Mar. 2022

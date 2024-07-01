@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I currently am a Sr. Bioinformatics Scientist at [Illumina inc](https://www.illumina.com).
+I currently am a Staff Bioinformatics Scientist at [Illumina inc](https://www.illumina.com).
 
 Previously I was a Postdoc at the [University of Florida](https://www.ufl.edu) under the supervision of Prof. [Christina Boucher](https://christinaboucher.com/). I am currently working on pangenomics short read alignment. Within this context I developed [MONI](https://github.com/maxrossi91/moni), that is a pangenomic index that can efficiently find maximal exact matches (MEMs) on hundreds of human genomes.
 

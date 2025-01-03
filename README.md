@@ -50,7 +50,7 @@ https://desiredpersona.com/jekyll-firebase-hosting/
 for full description
 
 ```
-boundle exec jekyll build
+bundle exec jekyll build
 firebase deploy
 ```
 

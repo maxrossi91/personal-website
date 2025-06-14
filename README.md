@@ -40,7 +40,7 @@ To support this, all changes to the underlying code appear as a closed issue wit
 See README for a complete list of steps
 
 ```
-bundle exec jekyll liveserves
+bundle exec jekyll serve -l
 ```
 
 ## Deploy on firebase

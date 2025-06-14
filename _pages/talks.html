@@ -31,6 +31,16 @@ author_profile: true
         <!--//upper-row-->
         <div class="talk-event">{{ talk.event }}</div>
         <div class="talk-venue"> {{ talk.venue }} </div>
+
+        <div class="talk-venue">
+          {% if talk.video %}
+          <a href="{{talk.video}}"><i class="fas fa-fw fa-video zoom" aria-hidden="true" title="Video"></i></a>
+          {% endif %}
+          {% if talk.slides %}
+          <a href="../{{talk.slides}}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true" title="Slides"></i></a>
+          {% endif %}
+
+        </div>
       </div>
       <!--//meta-->
     </div>
